@@ -1,0 +1,205 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: #24282b;
+    border-bottom: solid 10px #1491d4;
+    margin-top: -20px;
+    height: 150px;
+}
+a:hover{
+    color: #1491d4;
+}
+.nav1{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: center;
+}
+.nav1 nav{
+    display: flex;
+    gap: 130px;
+}
+.colorh1{
+    color: #1491d4;
+}
+a{
+    font-size: 20px;
+    margin-top: 45px;
+    text-decoration: none;
+    color: white;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("../images/cabecera.jpg")0 -450px;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+}
+.section1 p{
+    width: 1100px;
+    color: white;
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    background-color: #24282b;
+    align-items: center;
+    height: 100px;
+}
+.section1 h2 {
+    font-size: 50px;
+    color: white;
+}
+input{
+    width: 250px;
+    height: 30px;
+}
+button{
+    background-color: #e8491d;
+    color: white;
+    border: none;
+    width: 90px;
+    height: 34px;
+}
+.section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4f4f4;
+    height: 450px;
+}
+.section3 h3{
+    font-size: 25px;
+}
+.image1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+}
+.image2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+}
+.image3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+}
+.section4{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin: 40px;
+}
+.section5{
+    display: flex;   
+}
+.p4{
+    background-color: #35424a;
+    color: white;
+    width: 380px;
+    padding: 20px;
+}
+.img5{
+    width: 150px;
+    width: 410px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.form2 input{
+    width: 670px;
+}
+.form2{
+    margin-top: 35px;
+    margin-left: 150px;
+}
+.button2{
+    width: 670px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.info2{
+    margin-top: 35px;
+    margin-left: 50px;
+}
+#mensaje1{
+    height: 200px;
+}
+#p0{
+    width: 970px;
+}
+#p1{
+    background-color: #35424a;
+    color: white;
+    width: 970px;
+    height: 90px;
+    padding: 15px;
+    margin-top: 20px; 
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+#p2{
+    background-color: #35424a;
+    color: white;
+    width: 940px;
+    height: 245px;
+    padding: 15px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.columns{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 2260px;
+}
+#col1{
+    background-color: #e6e6e6;
+    padding: 25px;
+    margin-bottom: 5px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1491d4;
+    height: 120px;
+}
+.footer h2{
+    font-size: 25px;
+    font-weight: 200;
+    color: #f4f4f4;
+}
